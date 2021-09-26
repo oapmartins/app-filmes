@@ -8,7 +8,7 @@ class MoviesHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: Get.width,
-      height: 196,
+      //height: 196,
       child: Stack(
         alignment: Alignment.bottomCenter,
         children: [
