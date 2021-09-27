@@ -54,7 +54,20 @@ class MoviesController extends GetxController with MessagesMixin {
   }
 
   void filterByName(String title) {
-    if (title.isEmpty) {
-    } else {}
+    if (title.isNotEmpty) {
+      var newPopularMovies = _popularMoviesOriginal.where((movie) {
+        return movie.title.toLowerCase().contains(title.toLowerCase());
+      });
+
+      var newTopRatedMovies = _topRatedMoviesOriginal.where((movie) {
+        return movie.title.toLowerCase().contains(title.toLowerCase());
+      });
+
+      popularMovies.assignAll(newPopularMovies);
+      topRatedMovies.assignAll(newTopRatedMovies);
+    } else {
+      popularMovies.assignAll(_popularMoviesOriginal);
+      topRatedMovies.assignAll(_topRatedMoviesOriginal);
+    }
   }
 }
