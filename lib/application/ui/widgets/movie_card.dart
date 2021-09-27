@@ -54,7 +54,7 @@ class MovieCard extends StatelessWidget {
           ),
           Positioned(
             bottom: 70,
-            right: -10,
+            right: -7,
             child: Material(
               elevation: 5,
               shape: CircleBorder(),
