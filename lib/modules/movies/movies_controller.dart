@@ -15,8 +15,8 @@ class MoviesController extends GetxController with MessagesMixin {
   final popularMovies = <MovieModel>[].obs;
   final topRatedMovies = <MovieModel>[].obs;
 
-  final _popularMoviesOriginal = <MovieModel>[];
-  final _topRatedMoviesOriginal = <MovieModel>[];
+  var _popularMoviesOriginal = <MovieModel>[];
+  var _topRatedMoviesOriginal = <MovieModel>[];
 
   MoviesController({
     required GenresService genresService,
@@ -40,6 +40,9 @@ class MoviesController extends GetxController with MessagesMixin {
       final popularMoviesData = await _moviesService.getPopularMovies();
       final topRatedMoviesData = await _moviesService.getTopRated();
 
+      _popularMoviesOriginal = popularMoviesData;
+      _topRatedMoviesOriginal = topRatedMoviesData;
+
       popularMovies.assignAll(popularMoviesData);
       topRatedMovies.assignAll(topRatedMoviesData);
     } catch (e, s) {
@@ -48,5 +51,10 @@ class MoviesController extends GetxController with MessagesMixin {
       _message(MessageModel.error(
           title: 'Erro', message: 'Erro ao carregar dados da página'));
     }
+  }
+
+  void filterByName(String title) {
+    if (title.isEmpty) {
+    } else {}
   }
 }
