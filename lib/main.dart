@@ -7,6 +7,7 @@ import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'modules/login/login_module.dart';
+import 'modules/movies/movie_detail/movie_detail_module.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         ...SplashModule().routers,
         ...LoginModule().routers,
         ...HomeModule().routers,
+        ...MovieDetailModule().routers,
       ],
     );
   }
