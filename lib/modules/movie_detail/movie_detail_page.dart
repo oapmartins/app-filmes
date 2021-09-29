@@ -1,3 +1,4 @@
+import 'package:app_filmes/modules/movie_detail/widget/movie_detail_header.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import './movie_detail_controller.dart';
@@ -11,7 +12,15 @@ class MovieDetailPage extends GetView<MovieDetailController> {
       appBar: AppBar(
         title: const Text('MovieDetailPage'),
       ),
-      body: Container(),
+      body: SingleChildScrollView(child: Obx(() {
+        return Column(
+          children: [
+            MovieDetailHeader(
+              movie: controller.movie.value,
+            ),
+          ],
+        );
+      })),
     );
   }
 }
