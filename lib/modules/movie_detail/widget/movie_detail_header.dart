@@ -3,7 +3,7 @@ import 'package:app_filmes/modules/movie_detail/movie_detail_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class MovieDetailHeader extends GetView<MovieDetailController> {
+class MovieDetailHeader extends StatelessWidget {
   final MovieDetailModel? movie;
 
   const MovieDetailHeader({Key? key, required this.movie}) : super(key: key);
