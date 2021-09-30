@@ -3,7 +3,7 @@
 
 <p>
     Esse foi o projeto desenvolvido na Dart Week | 4ª Edição, um evento de lançamento para a <a href="http://academiadoflutter.com.br/">Academia do Flutter</a>, de <a href="https://github.com/rodrigorahman">Rodrigo Rahman</a>.<br>
-    Nesses 7 dias corridos e com muito código, muita mão na massa e com garra, eu aprendi - principalmente - bastante. Além de revisar vários outros conteúdos que já havia estudado anteriormente, que me fizeram clarear e a polir meus conhecimentos.<br> 🚀
+    Nesses 7 dias corridos e com muito código, muita mão na massa e com garra, eu aprendi - principalmente - bastante. Além de revisar vários outros conteúdos que já havia estudado anteriormente, que me fizeram clarear e a polir meus conhecimentos. 🚀<br>
 </p>
 
 ---
