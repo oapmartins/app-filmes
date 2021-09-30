@@ -56,7 +56,7 @@ class MovieDetailModel {
       releaseDate: DateTime.parse(map['release_date']),
       overview: map['overview'],
       productionCompanies:
-          List<dynamic>.from(map['productionCompanies'] ?? const [])
+          List<dynamic>.from(map['production_companies'] ?? const [])
               .map<String>((p) => p['name'])
               .toList(),
       originalLanguage: map['original_language'],
