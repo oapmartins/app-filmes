@@ -11,7 +11,10 @@
 <h2>📱 Preview</h2>
 
    <p align="center">
-      <img src=".github/App-Filmes-Demo.gif" width="400" alt="App Filmes Demonstração">
+      <img src=".github/print1.png" width="200" alt="Tela de Login">
+      <img src=".github/print2.png" width="200" alt="Tela principal de Filmes">
+      <img src=".github/print3.png" width="200" alt="Favoritos">
+      <img src=".github/print4.png" width="200" alt="Filmes mais assistidos">
    </p>
 
 ---
