@@ -20,7 +20,7 @@ class MoviesPage extends GetView<MoviesController> {
             movies: controller.popularMovies,
           ),
           MoviesGroup(
-            title: 'Top Filmes',
+            title: 'Top Filmes ',
             movies: controller.topRatedMovies,
           ),
         ],
