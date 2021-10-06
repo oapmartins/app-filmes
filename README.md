@@ -93,3 +93,5 @@
    - Envie suas mudanças:
    $ git push origin my-feature
    ```
+   ---
+   <p>Créditos do readme para o https://github.com/felipecastrosales.
