@@ -65,10 +65,10 @@
    https://flutter.dev/docs/get-started/install
 
    - Clone o repositório:
-   $ git clone https://github.com/felipecastrosales/app_filmes app_filmes
+   $ git clone https://github.com/oapmartins/app-filmes
 
    - Entre no diretório:
-   $ cd app_filmes
+   $ cd app-filmes
 
    - Instale as dependências:
    $ flutter pub get
