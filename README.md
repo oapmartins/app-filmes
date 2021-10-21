@@ -11,10 +11,10 @@
 <h2>📱 Preview</h2>
 
    <p align="center">
-      <img src=".github/print1.png" width="200" alt="Tela de Login">
-      <img src=".github/print2.png" width="200" alt="Tela principal de Filmes">
-      <img src=".github/print3.png" width="200" alt="Favoritos">
-      <img src=".github/print4.png" width="200" alt="Filmes mais assistidos">
+      <img src=".github/print1.png" width="190" alt="Tela de Login">
+      <img src=".github/print2.png" width="190" alt="Tela principal de Filmes">
+      <img src=".github/print3.png" width="190" alt="Favoritos">
+      <img src=".github/print4.png" width="190" alt="Filmes mais assistidos">
    </p>
 
 ---
